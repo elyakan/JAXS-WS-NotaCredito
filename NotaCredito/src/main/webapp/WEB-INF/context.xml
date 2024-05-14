@@ -1,0 +1,5 @@
+<Resource name="jdbc/JNDICostaRica" auth="Container"
+          type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"
+          url="jdbc:oracle:thin:@//172.28.10.90:1524/SCLCSR"
+          username="SISCEL" password="SISCEL" maxActive="20" maxIdle="10"
+          maxWait="10000"/>
